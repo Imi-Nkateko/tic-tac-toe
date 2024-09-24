@@ -67,6 +67,7 @@ tr td:nth-last-child(1), td:nth-last-child(2), td:nth-last-child(3) {
     justify-content: center;
     top: 200px;
     border-radius: 10px;
+    display: none;
 }
 
 .restart-container h1 {
