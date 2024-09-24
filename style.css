@@ -1,1 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.cont
+
+
+
+td {
+    border: 1px solid #000;
+    width: 100px;
+    height: 100px;
+}
+
+table {
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+
+
+tr td:first-child {
+    border-left: none;
+}
+
+tr td:last-child {
+    border-right: none;
+}
+
+tr  {
+    border-top: none;
+}
+
+tr td:nth-last-child(1), td:nth-last-child(2), td:nth-last-child(3) {
+    border-bottom: none;
+}
+
+.first-block {
+    border-top: none;
+}
