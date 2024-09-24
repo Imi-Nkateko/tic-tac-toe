@@ -55,3 +55,31 @@ tr td:nth-last-child(1), td:nth-last-child(2), td:nth-last-child(3) {
 .first-block {
     border-top: none;
 }
+
+.restart-container {
+    position: absolute;
+    background-color:  rgba(121, 121, 121, 0.753);
+    width: 600px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 200px;
+    border-radius: 10px;
+}
+
+.restart-container h1 {
+    color: gold;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.restart-container button {
+    width: 80px;
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: yellow;
+    border: none;
+}
