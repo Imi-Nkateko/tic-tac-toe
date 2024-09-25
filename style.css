@@ -76,7 +76,7 @@ tr td:nth-last-child(1), td:nth-last-child(2), td:nth-last-child(3) {
     font-size: 1.5rem;
 }
 
-.restart-container button {
+.restart-container button, .startBtn {
     width: 80px;
     margin-top: 10px;
     height: 30px;
